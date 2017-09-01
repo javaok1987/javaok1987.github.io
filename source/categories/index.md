@@ -5,6 +5,4 @@ type: "categories"
 comments: false
 ---
 
-*   [Back-end](./back-end/)
-*   [Front-end](./front-end/)
-
+*   [前端](./front-end/)

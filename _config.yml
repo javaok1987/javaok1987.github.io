@@ -4,8 +4,8 @@
 
 # Site
 title: IAN's Blog
-subtitle:
-description:
+subtitle: 寧可一思進，莫在一思停
+description: 備份一下開發時遇到的問題，和網路上收集到的東西。
 author: Ian Liao
 language: zh-tw
 timezone:
@@ -93,3 +93,7 @@ tag_cloud:
     textColour: \#333
     textHeight: 25
     outlineColour: \#E2E1D1
+
+#hexo-generator-tag https://github.com/hexojs/hexo-generator-tag
+tag_generator:
+  per_page: 10
