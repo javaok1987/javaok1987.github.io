@@ -7,7 +7,9 @@ title: IAN's Blog
 subtitle: 寧可一思進，莫在一思停
 description: 備份一下開發時遇到的問題，和網路上收集到的東西。
 author: Ian Liao
-language: zh-tw
+language:
+  - zh-tw
+  - en
 timezone:
 
 # URL
