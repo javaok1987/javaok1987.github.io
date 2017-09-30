@@ -1,6 +1,7 @@
 ---
 title: Debounce & Throttle Function
 date: 2017-08-30 14:42:42
+banner: /images/clock-1274699_1920.jpg
 tags: [js, debounce, throttle]
 categories: JS
 ---
@@ -14,6 +15,7 @@ categories: JS
 __用戶停止某個操作一段時間之後才執行相應的監聽事件__
 例如，調整瀏覽器視窗大小的時候，會觸發很多次 `resize` 事件，可以使用 debounce 方法在停止調整視窗大小的時候在去觸發相應功能。
 
+![Debounce](/images/debounce.gif)
 
 #### 造輪子
 
@@ -66,6 +68,8 @@ window.addEventListener('scroll', handleScroll);
 
 __控制監聽事件固定在每 X 毫秒內執行一次__
 例如，不管滑鼠移動(`mousemove`事件)的速度多快，固定在每 250ms 執行一次。
+
+![Throttle](/images/throttle.gif)
 
 #### 造輪子
 
