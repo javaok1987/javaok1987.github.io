@@ -5,7 +5,7 @@ banner: /images/javascript.png
 tags:
   - js
   - tips
-categories: Front-end
+categories: Web
 ---
 
 記錄一些平常開發應該注意的小地方...

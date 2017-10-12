@@ -5,7 +5,5 @@ type: "categories"
 comments: false
 ---
 
-*   [Front-end](./front-end/)
-*   [CSS](./css/)
-*   [JS](./js/)
+*   [Web開發](./web/)
 *   [室內設計](./室內設計/)
