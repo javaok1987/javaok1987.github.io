@@ -38,8 +38,8 @@ comments: false
     - 好房網TV([Mobile](https://goo.gl/Ggh7SJ))
       使用語言&工具：`JavaScript`
       工作內容：
-        - 使用 Babel + ECMAScript 6 開發手機頁面
-        - 開發 Restful API
+        - PSD 切版
+        - API 串接
 
 
 - #### Front-End Engineer | 易遊網股份有限公司 (2015/07~2017/02)
@@ -68,19 +68,18 @@ comments: false
     - 第三代公路[監理資訊系統](https://goo.gl/SLCRbH)建置案
       使用語言：`Java`、`SQL`、`JavaScript`
       工作內容：
-      - 開發[行程規劃](https://goo.gl/H0uOca)系統
-      - 分析客運歷史軌跡數據，歸納客運每日行駛班次
-      - 辨識客運每日行駛路線正確性
-      - 使用 Angular.js 開發管理後台
-      - 介接 Facebook Graph API
-      - 使用 jQuery Mobile 開發[行動平台](http://goo.gl/E1CQn9)
-
+        - 開發[行程規劃](https://goo.gl/H0uOca)系統
+        - 分析客運歷史軌跡數據，歸納客運每日行駛班次
+        - 辨識客運每日行駛路線正確性
+        - 使用 Angular.js 開發管理後台
+        - 介接 Facebook Graph API
+        - 使用 jQuery Mobile 開發[行動平台](http://goo.gl/E1CQn9)
     - 悠遊卡手機服務軟體開發案
       使用語言：`Java`、`SQL`、`JavaScript`
       工作內容：
-      - 開發 Restful API
-      - 介接 Web Service
-      - 開發訊息推播功能
+        - 開發 Restful API
+        - 介接 Web Service
+        - 開發訊息推播功能
 
 
 ---------------------------------------
