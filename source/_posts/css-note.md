@@ -5,7 +5,6 @@ banner: /images/css.gif
 tags:
   - css
   - tips
-  - text-indent
 categories: Web
 ---
 
