@@ -35,11 +35,16 @@ comments: false
     - 網頁切板及調校優化網頁呈現效能
 
   __執行專案__
-    - 好房網TV([Mobile](https://goo.gl/Ggh7SJ))
-      使用語言&工具：`JavaScript`
+    - [好房網TV](https://goo.gl/Ggh7SJ)
+      使用語言&工具：`ECMAScript 6`、`Firebase`
       工作內容：
-        - PSD 切版
-        - API 串接
+        - 使用 Firebase 實現直播聊天室
+        - 行動版網頁製作
+
+    - 行銷活動頁
+      [好房影響力講座列表](https://news.housefun.com.tw/lectures/all)
+      [品牌行銷活動頁](https://event.yungching.com.tw/brand/2017)
+      [TV抽獎活動頁](https://news.housefun.com.tw/events/tv/fans_checkin)
 
 
 - #### Front-End Engineer | 易遊網股份有限公司 (2015/07~2017/02)
