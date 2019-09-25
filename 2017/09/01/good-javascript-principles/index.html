@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="zh-tw,en,default"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title>Good Javascript Principles | IAN's Blog</title><meta name="description" content="Good Javascript Principles - Ian Liao"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><meta name="format-detection" content="address=no"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="apple-touch-icon" href="/images/apple-icon-60x60.png" sizes="57x57"><link rel="apple-touch-icon" href="/images/apple-icon-76x76.png" sizes="72x72"><link rel="apple-touch-icon" href="/images/apple-icon-120x120.png" sizes="114x114"><link rel="apple-touch-icon" href="/images/apple-icon-152x152.png" sizes="144x144"><link rel="search" type="application/opensearchdescription+xml" href="https://javaok1987.github.io/atom.xml" title="IAN's Blog"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVES</a></li><li class="nav-list-item"><a href="/categories" target="_self" class="nav-list-link">CATEGORIES</a></li><li class="nav-list-item"><a href="https://github.com/javaok1987" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header></div><main class="container"><div class="post"><article class="post-block"><div class="wrap"><h1 class="post-title">Good Javascript Principles</h1><div class="post-info">2017年9月1日<ul class="tags"><li><a href="/tags/js/" title="js" class="tag">#js</a></li><li><a href="/tags/tips/" title="tips" class="tag">#tips</a></li></ul></div></div><div class="post-banner"><img src="/images/javascript.png" alt="Good Javascript Principles"></div><div class="wrap"><div class="post-content"><p>記錄一些平常開發應該注意的小地方…</p>
+<a id="more"></a>
+
+<ol>
+<li><p>使用 var 關鍵字宣告變數<br>未宣告的變數會導致建立一個全域變數。</p>
+</li>
+<li><p>使用 <code>===</code>，而不是 <code>==</code><br>==（或!=）操作符在需要的時候會自動執行類型轉換，<br>===（或!==）操作不會執行任何轉換，而且在速度上也比較快。</p>
+</li>
+<li><p>使用 <code>for()</code> 替代 <code>for-in</code> 循環<br>for-in 會在每次跑循環時重算數據組的長度，執行效率較慢。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="built_in">Array</span>.length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;...&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>避免使用 <code>eval()</code><br>使用 eval 是非常昂貴的操作，且也會有安全性問題。</p>
+</li>
+<li><p>避免在循環內部使用 <code>try-catch</code><br>把 try-catch 語句放在循環外面，避免每次都要執行它們。</p>
+</li>
+<li><p>在呼叫 <code>setTimeout()</code> 和 <code>setInterval()</code> 的時候傳入函式<br>將函數的引用作為參數傳遞到 setTimeout() 和 setInterval() 裡 <code>setTimeout(someFunc, 1000)</code>，<br>優於將函數名作為字符串參數傳遞 <code>setTimeout(&#39;someFunc()&#39;, 1000)</code>。</p>
+</li>
+</ol>
+<p>…to be continued</p>
+</div></div></article></div></main><div class="wrap"><footer><div class="paginator"><a href="/2017/09/05/css-note/" class="prev">上一篇</a><a href="/2017/08/30/js-throttle-debounce/" class="next">下一篇</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'javaok1987';
+var disqus_identifier = '2017/09/01/good-javascript-principles/';
+var disqus_title = 'Good Javascript Principles';
+var disqus_url = 'https://javaok1987.github.io/2017/09/01/good-javascript-principles/';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script><script id="dsq-count-scr" src="//javaok1987.disqus.com/count.js" async></script><div class="copyright"><p>© 2017 - 2019 <a href="https://javaok1987.github.io">Ian Liao</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-69711228-4",'auto');ga('send','pageview');</script></body></html>
