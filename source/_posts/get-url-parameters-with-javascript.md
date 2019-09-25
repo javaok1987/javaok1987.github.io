@@ -4,9 +4,9 @@ date: 2018-01-16 11:30:00
 banner: /images/pov-3046269_1280.jpg
 tags:
   - js
-  - jquery
+  - jQuery
   - querystring
-categories: Web
+categories: JS
 ---
 擷取網址列所帶參數
 <!-- more -->

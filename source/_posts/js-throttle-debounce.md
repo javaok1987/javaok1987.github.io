@@ -6,7 +6,7 @@ tags:
   - js
   - debounce
   - throttle
-categories: Web
+categories: JS
 ---
 一般綁定 DOM 事件(`resize`、`scroll`、`mousemove`和`keydown/keyup/keypress`等)的時候，常常會因為事件觸發的太頻繁而導致網頁效能低落。
 

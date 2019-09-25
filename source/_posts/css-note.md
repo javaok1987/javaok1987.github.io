@@ -5,7 +5,7 @@ banner: /images/css.gif
 tags:
   - css
   - tips
-categories: Web
+categories: CSS
 ---
 
 整理一些常常用到的 css 語法，方便之後切版使用。

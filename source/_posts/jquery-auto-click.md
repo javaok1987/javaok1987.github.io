@@ -4,8 +4,8 @@ date: 2017-10-19 15:01:16
 banner: /images/macbook-26132456437.jpg
 tags:
   - js
-  - jquery
-categories: Web
+  - jQuery
+categories: jQuery
 ---
 在網頁載入時自動按下按鈕或連結，執行 `click` 事件。
 <!-- more -->

@@ -5,7 +5,7 @@ banner: /images/youtube.jpg
 tags:
   - js
   - youtube
-categories: Web
+categories: JS
 ---
 使用 [YouTube Player API](https://developers.google.com/youtube/iframe_api_reference) 控制 `YouTube` 影片，包括自動播放、隱藏按鈕、隱藏影片標題、隱藏 YouTube Logo、循環播放...等。
 <!-- more -->

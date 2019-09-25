@@ -7,7 +7,7 @@ tags:
   - jQuery
   - tips
   - ajax
-categories: Web
+categories: jQuery
 ---
 
 jQuery.ajaxPrefilter() 是 jQuery 中的 Ajax 前置過濾器，可以用來前置處理關於 Ajax 的相關設定 (option).
